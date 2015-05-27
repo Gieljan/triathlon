@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -10,15 +8,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg4178"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   id="svg4279"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="481.71277"
-   height="448.79572"
-   viewBox="0 0 481.71277 448.79572"
    sodipodi:docname="retina.svg">
   <metadata
-     id="metadata4184">
+     id="metadata4311">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -30,7 +28,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs4182" />
+     id="defs4309" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -40,21 +38,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview4180"
+     inkscape:window-width="965"
+     inkscape:window-height="657"
+     id="namedview4307"
      showgrid="false"
-     inkscape:zoom="0.52585172"
-     inkscape:cx="240.85638"
-     inkscape:cy="224.39786"
+     inkscape:snap-others="false"
+     inkscape:zoom="2.36"
+     inkscape:cx="-2.3036052"
+     inkscape:cy="12.014223"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg4178" />
+     inkscape:current-layer="svg4279" />
   <image
-     width="481.71277"
-     height="448.79572"
-     preserveAspectRatio="none"
+     y="9.5004463"
+     x="8.8385248"
+     id="image4375"
      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAIvCAYAAACoQaWlAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAARPwAAET8Bm9rX3QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAASdEVY
 dFRpdGxlAFJ1bm5pbmcgSWNvbhZdKbQAACAASURBVHic7N13fMyHH8fx9+US2SJBQq0kgpYqrdGh
@@ -469,7 +468,7 @@ oUi42m4kMzxTsFpq/CTiWP2jbAUlnSJKFwAANkQl7ZZUrNidVaslreuMnwA0wbMFqzVBfyBN0iDF
 ylbT1xBJvST1aOOr09wVBgBAJ1InqUqxA+gtvw5LikgKNfsqDUXCXaZ0/D9i8JsSKcp1AwAAAABJ
 RU5ErkJggg==
 "
-     id="image4186"
-     x="0"
-     y="0" />
+     preserveAspectRatio="none"
+     height="81.422836"
+     width="81.712776" />
 </svg>
