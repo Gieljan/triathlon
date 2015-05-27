@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -10,15 +8,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg4012"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   id="svg4279"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="640"
-   height="640"
-   viewBox="0 0 640 640"
    sodipodi:docname="picture.svg">
   <metadata
-     id="metadata4018">
+     id="metadata4311">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -30,7 +28,15 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs4016" />
+     id="defs4309">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 50 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="100 : 50 : 1"
+       inkscape:persp3d-origin="50 : 33.333333 : 1"
+       id="perspective4462" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -40,21 +46,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview4014"
+     inkscape:window-width="965"
+     inkscape:window-height="657"
+     id="namedview4307"
      showgrid="false"
-     inkscape:zoom="0.36875"
-     inkscape:cx="320"
-     inkscape:cy="320"
-     inkscape:window-x="127"
-     inkscape:window-y="19"
+     inkscape:snap-others="false"
+     inkscape:zoom="2.71529"
+     inkscape:cx="-10.542764"
+     inkscape:cy="31.020086"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg4012" />
+     inkscape:current-layer="svg4279" />
   <image
-     width="640"
-     height="640"
-     preserveAspectRatio="none"
+     y="8.5608044"
+     x="10.629335"
+     id="image4459"
      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAYAAAAMzckjAACrs0lEQVR42uzdd3gUdf4H8Pe03Ww2
 lVQgPaEJihRpAtIVrIiADQsqSkdP7/Qs2M7zfldUBOwNC/Yuig2wNxSkSyjpPSHJJpvdab8/srNu
 KBKQkt28X8/jc+cKm+zszHzf8/k2wTRNhCLTNGEYhghAlCQJALTA/15fXw+v12v/7ttvO2qqlrl2
@@ -829,7 +836,7 @@ IUWF+1JDQkNSd+7cGV9RXhGj63qcUioKQAgAm/9Hp1OKEEII6Vu3fbTODfD6/3Uzxhp9Pl/d4MTB
 DTk5OZUet6dgeGpK0amnnubQdG3fhAkTKqJjYny6rh+cHzT/NnHSaj08Hv0fdXTkZHP3eyoAAAAA
 SUVORK5CYII=
 "
-     id="image4020"
-     x="0"
-     y="0" />
+     preserveAspectRatio="none"
+     height="81"
+     width="81" />
 </svg>
