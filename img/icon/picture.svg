@@ -10,15 +10,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg3390"
+   id="svg4012"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="481.71277"
-   height="448.79572"
-   viewBox="0 0 481.71277 448.79572"
+   width="640"
+   height="640"
+   viewBox="0 0 640 640"
    sodipodi:docname="picture.svg">
   <metadata
-     id="metadata3396">
+     id="metadata4018">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -30,7 +30,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3394" />
+     id="defs4016" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -40,21 +40,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1185"
-     inkscape:window-height="736"
-     id="namedview3392"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview4014"
      showgrid="false"
-     inkscape:zoom="1.2255019"
-     inkscape:cx="12.378566"
-     inkscape:cy="257.03755"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="0.36875"
+     inkscape:cx="320"
+     inkscape:cy="320"
+     inkscape:window-x="127"
+     inkscape:window-y="19"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3390" />
+     inkscape:current-layer="svg4012" />
   <image
-     y="4.9942265"
-     x="3.9489067"
-     id="image3667"
+     width="640"
+     height="640"
+     preserveAspectRatio="none"
      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAYAAAAMzckjAACrs0lEQVR42uzdd3gUdf4H8Pe03Ww2
 lVQgPaEJihRpAtIVrIiADQsqSkdP7/Qs2M7zfldUBOwNC/Yuig2wNxSkSyjpPSHJJpvdab8/srNu
 KBKQkt28X8/jc+cKm+zszHzf8/k2wTRNhCLTNGEYhghAlCQJALTA/15fXw+v12v/7ttvO2qqlrl2
@@ -829,7 +829,7 @@ IUWF+1JDQkNSd+7cGV9RXhGj63qcUioKQAgAm/9Hp1OKEEII6Vu3fbTODfD6/3Uzxhp9Pl/d4MTB
 DTk5OZUet6dgeGpK0amnnubQdG3fhAkTKqJjYny6rh+cHzT/NnHSaj08Hv0fdXTkZHP3eyoAAAAA
 SUVORK5CYII=
 "
-     preserveAspectRatio="none"
-     height="80"
-     width="80" />
+     id="image4020"
+     x="0"
+     y="0" />
 </svg>

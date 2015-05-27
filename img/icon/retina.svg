@@ -10,15 +10,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg3390"
+   id="svg4178"
    version="1.1"
    inkscape:version="0.91 r13725"
    width="481.71277"
    height="448.79572"
    viewBox="0 0 481.71277 448.79572"
-   sodipodi:docname="running-icon-hi.svg">
+   sodipodi:docname="retina.svg">
   <metadata
-     id="metadata3396">
+     id="metadata4184">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -30,7 +30,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3394" />
+     id="defs4182" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -40,20 +40,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1185"
-     inkscape:window-height="736"
-     id="namedview3392"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview4180"
      showgrid="false"
-     inkscape:zoom="1.2255019"
-     inkscape:cx="77.657942"
-     inkscape:cy="387.5963"
+     inkscape:zoom="0.52585172"
+     inkscape:cx="240.85638"
+     inkscape:cy="224.39786"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3390" />
+     inkscape:current-layer="svg4178" />
   <image
-     width="80.712997"
-     height="80.197998"
+     width="481.71277"
+     height="448.79572"
      preserveAspectRatio="none"
      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAIvCAYAAACoQaWlAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAARPwAAET8Bm9rX3QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAASdEVY
@@ -469,7 +469,7 @@ oUi42m4kMzxTsFpq/CTiWP2jbAUlnSJKFwAANkQl7ZZUrNidVaslreuMnwA0wbMFqzVBfyBN0iDF
 ylbT1xBJvST1aOOr09wVBgBAJ1InqUqxA+gtvw5LikgKNfsqDUXCXaZ0/D9i8JsSKcp1AwAAAABJ
 RU5ErkJggg==
 "
-     id="image3398"
-     x="0.8159923"
-     y="0.58520752" />
+     id="image4186"
+     x="0"
+     y="0" />
 </svg>
