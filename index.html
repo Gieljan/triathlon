@@ -159,6 +159,19 @@
 						<option value="#0580ff" class="wpcf-form-option form-option option">blue</option>
 						<option value="black" class="wpcf-form-option form-option option">black</option>
 					</select>
+						<script>
+							$(document).ready(function() {
+  							$('#init').on('click', function() {
+    						$('select[name="colorpicker-shortlist"]').simplecolorpicker();
+    						$('select[name="colorpicker-picker-shortlist"]').simplecolorpicker({picker: true});
+  								});
+  							$('#destroy').on('click', function() {
+   							$('select').simplecolorpicker('destroy');
+ 								 });
+  							$('#init').trigger('click');
+								});
+								});
+						</script>
 					<br></br>
 						<p><a class="btn btn-embossed btn-primary" href="#" role="button">Play</a> 
 					 	<a class="btn btn-embossed btn-info" href="#instructions" role="button">View Instructions</a></p>
@@ -354,9 +367,9 @@
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.js"></script>
-	<script src="js/jquery.simplecolorpicker.js">
-		jQuery(function($) {
+	<script src="js/jquery.simplecolorpicker.js"></script>
+	
+	<script>
 		$(document).ready(function() {
   			$('#init').on('click', function() {
     			$('select[name="colorpicker-shortlist"]').simplecolorpicker();
