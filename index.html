@@ -36,6 +36,23 @@
 
 	<!-- colorselector css and js files -->
   	<link rel="stylesheet" href="css/jquery.simplecolorpicker.css">
+
+  	<script src="js/ajax.googleapis.js"></script>
+	<script src="js/jquery.simplecolorpicker.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+  			$('#init').on('click', function() {
+    			$('select[name="colorpicker-shortlist"]').simplecolorpicker();
+    			$('select[name="colorpicker-picker-shortlist"]').simplecolorpicker({picker: true});
+  					});
+  				$('#destroy').on('click', function() {
+   				$('select').simplecolorpicker('destroy');
+ 					 });
+  				$('#init').trigger('click');
+					});
+				});
+	</script>
 	
 	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
 </head>
@@ -344,25 +361,6 @@
         </div>
       </div>
     </footer>
-
-
-    <script src="js/ajax.googleapis.js"></script>
-	<script src="js/jquery.simplecolorpicker.js"></script>
-	
-	<script>
-		$(document).ready(function() {
-  			$('#init').on('click', function() {
-    			$('select[name="colorpicker-shortlist"]').simplecolorpicker();
-    			$('select[name="colorpicker-picker-shortlist"]').simplecolorpicker({picker: true});
-  					});
-  				$('#destroy').on('click', function() {
-   				$('select').simplecolorpicker('destroy');
- 					 });
-  				$('#init').trigger('click');
-					});
-				});
-	</script>
-
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
