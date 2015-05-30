@@ -34,9 +34,8 @@
 	<!-- Magnific Popup core CSS file -->
 	<link rel="stylesheet" href="css/magnific-popup.css"> 
 
-	<!-- colorselector css files -->
-  	<link href="css/jquery.simplecolorpicker.css" rel="stylesheet">
-
+	<!-- colorselector css and js files -->
+  	<link rel="stylesheet" href="css/jquery.simplecolorpicker.css">
 	
 	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
 </head>
@@ -151,7 +150,7 @@
 					<br></br>
 					<div class="sub-title lead3">Select your Team:</div>
                   	 <select id="wpcf-select-pagecolor-1178946369" name="wpcf[pagecolor]" class="wpcf-form-select form-select select">
-						<button id="init">
+						<link id="init">
 						<select name="colorpicker-shortlist">
 						<option value="" class="wpcf-form-option form-option option">select</option>
 						<option value="white" class="wpcf-form-option form-option option">white</option>
@@ -190,7 +189,7 @@
 					<br></br>
 					<div class="sub-title lead3">Select your Team:</div>
                   	 <select id="wpcf-select-pagecolor-1178946369" name="wpcf[pagecolor]" class="wpcf-form-select form-select select">
-						<button id="init">
+						<link id="init">
 						<select name="colorpicker-shortlist">
 						<option value="" class="wpcf-form-option form-option option">select</option>
 						<option value="white" class="wpcf-form-option form-option option">white</option>
@@ -229,7 +228,7 @@
 					<br></br>
 					<div class="sub-title lead3">Select your Team:</div>
                   	 <select id="wpcf-select-pagecolor-1178946369" name="wpcf[pagecolor]" class="wpcf-form-select form-select select">
-						<button id="init">
+						<link id="init">
 						<select name="colorpicker-shortlist">
 						<option value="" class="wpcf-form-option form-option option">select</option>
 						<option value="white" class="wpcf-form-option form-option option">white</option>
@@ -341,8 +340,7 @@
 						<p> Select the colour of the team that you bet on to be winning.</p> 
 					  </div>
 					</div>
-			  </div>
-		  </div>
+			
 	
     <footer>
       <div class="container">
@@ -353,6 +351,26 @@
         </div>
       </div>
     </footer>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.js"></script>
+	<script src="js/jquery.simplecolorpicker.js"></script>
+	
+
+	<script>
+		$(document).ready(function() {
+  			$('#init').on('click', function() {
+    			$('select[name="colorpicker-shortlist"]').simplecolorpicker();
+    			$('select[name="colorpicker-picker-shortlist"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
+  					});
+  				$('#destroy').on('click', function() {
+   				$('select').simplecolorpicker('destroy');
+ 					 });
+  				$('#init').trigger('click');
+					});
+	</script>
+
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
@@ -381,83 +399,7 @@
 	<!-- Magnific Popup core JS file -->
 	<script src="js/jquery.magnific-popup.js"></script>
 	<!-- coloselector -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.js"></script>
-	<script src="js/jquery.simplecolorpicker.js"></script>
-
-	<script>
-$(document).ready(function() {
-  $('select[name="colorpicker-change-background-color"]').on('change', function() {
-    $(document.body).css('background-color', $('select[name="colorpicker-change-background-color"]').val());
-  });
-
-  setTimeout(function() {
-    $('select[name="colorpicker-selectColor-#fbd75b"]').simplecolorpicker('selectColor', '#fbd75b');
-  }, 5000);
-
-  setTimeout(function() {
-    $('select[name="colorpicker-selectColor-#FBD75B"]').simplecolorpicker('selectColor', '#FBD75B');
-  }, 5000);
-
-  setTimeout(function() {
-    $('select[name="colorpicker-selectColor-#fbd75b-multiple"]').simplecolorpicker('selectColor', '#fbd75b');
-  }, 5000);
-
-  setTimeout(function() {
-    // Generates a JavaScript error
-    $('select[name="colorpicker-selectColor-unknown"]').simplecolorpicker('selectColor', 'unknown');
-  }, 5000);
-
-
-  setTimeout(function() {
-    $('select[name="colorpicker-picker-selectColor-#fbd75b"]').simplecolorpicker('selectColor', '#fbd75b');
-  }, 5000);
-
-  setTimeout(function() {
-    // Generates a JavaScript error
-    $('select[name="colorpicker-picker-selectColor-unknown"]').simplecolorpicker('selectColor', 'unknown');
-  }, 5000);
- 
-
-  $('#init').on('click', function() {
-    $('select[name="colorpicker-shortlist"]').simplecolorpicker();
-    $('select[name="colorpicker-longlist"]').simplecolorpicker();
-    $('select[name="colorpicker-notheme"]').simplecolorpicker();
-    $('select[name="colorpicker-regularfont"]').simplecolorpicker({theme: 'regularfont'});
-    $('select[name="colorpicker-glyphicons"]').simplecolorpicker({theme: 'glyphicons'});
-    $('select[name="colorpicker-fontawesome"]').simplecolorpicker({theme: 'fontawesome'});
-    $('select[name="colorpicker-bootstrap3-form"]').simplecolorpicker({theme: 'glyphicons'});
-    $('select[name="colorpicker-modal-inline"]').simplecolorpicker();
-    $('select[name="colorpicker-modal-picker"]').simplecolorpicker({picker: true});
-    $('select[name="colorpicker-option-selected"]').simplecolorpicker({theme: 'glyphicons'});
-    $('select[name="colorpicker-options-disabled"]').simplecolorpicker({theme: 'glyphicons'});
-    $('select[name="colorpicker-option-selected-disabled"]').simplecolorpicker({theme: 'glyphicons'});
-    $('select[name="colorpicker-optgroups"]').simplecolorpicker();
-    $('select[name="colorpicker-change-background-color"]').simplecolorpicker();
-    $('select[name="colorpicker-selectColor-#fbd75b"]').simplecolorpicker({theme: 'glyphicons'});
-    $('select[name="colorpicker-selectColor-#FBD75B"]').simplecolorpicker({theme: 'glyphicons'});
-    $('select[name="colorpicker-selectColor-#fbd75b-multiple"]').simplecolorpicker({theme: 'glyphicons'});
-    $('select[name="colorpicker-selectColor-unknown"]').simplecolorpicker({theme: 'glyphicons'});
-
-    $('select[name="colorpicker-picker-shortlist"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
-    $('select[name="colorpicker-picker-longlist"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
-    $('select[name="colorpicker-picker-delay"]').simplecolorpicker({picker: true, theme: 'glyphicons', pickerDelay: 1000});
-    $('select[name="colorpicker-picker-option-selected"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
-    $('select[name="colorpicker-picker-options-disabled"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
-    $('select[name="colorpicker-picker-option-selected-disabled"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
-    $('select[name="colorpicker-picker-optgroups"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
-    $('select[name="colorpicker-picker-selectColor-#fbd75b"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
-    $('select[name="colorpicker-picker-selectColor-unknown"]').simplecolorpicker({picker: true, theme: 'glyphicons'});
-  });
-
-  $('#destroy').on('click', function() {
-    $('select').simplecolorpicker('destroy');
-  });
-
-  // By default, activate simplecolorpicker plugin on HTML selects
-  $('#init').trigger('click');
-});
-</script>
+	
 </body>
 
 </html>
