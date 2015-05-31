@@ -18,9 +18,9 @@ jQuery(function($){
 
 
 
-//this function lets the players choose a horse
-var choice = document.getElementsByName("colorpicker-riding").value;
 
+//this function lets the players choose a horse
+var choice =prompt("Choose horse")
 
 //This fuction will give each car a 1/2 chance to increase its position by 1. When reaching the finish line together, there will be a tie and the 'game' will restart.
 function go(){
@@ -104,30 +104,31 @@ if(document.Race.Racer1Pos.value =="2"){ document.Racer1Image.src= "http://s5.po
  //This is where is declared who wins
  else if(document.Race.Racer1Pos.value == 5){
   R1Win();
-  var yel = true;
+  var colour = "yel";
  }
 
  else if(document.Race.Racer2Pos.value == 5){
   R2Win();
-  var blu = true;
+  var colour = "blu";
  }
 
  else if(document.Race.Racer3Pos.value == 5){
   R3Win();
-  var bla = true;
+  var colour = "bla";
  }
 
   else if(document.Race.Racer4Pos.value == 5){
   R4Win();
-  var whi = true;
+  var colour = "whi";
  }
 
   else if(document.Race.Racer5Pos.value == 5){
   R5Win();
-  var gre = true;
+  var colour = "gre";
  }
 }
 //popups stating the winner of the race and timeout to delay winning message
+console.log(choice);
 
 function R1Win()
 {
@@ -136,10 +137,10 @@ function R1Win()
 function alertMsgyel()
 {
   alert("Yellow wins");
-  if (choice == "yellow" && yel == true){
+  if (document.Race.Racer1Pos.value == 5 && choice == "yellow"){
   alert("You won this event!")
 }
-else{
+else {
   alert("Game over!")
 }
 
@@ -147,12 +148,12 @@ else{
 
 function R2Win()
 {
-  var t=setTimeout("alertMsgblu()", 0);
+  var t=setTimeout("alertMsgblu()", 1000);
 }
 function alertMsgblu()
 {
   alert("Blue wins");
-    if (choice == "blue" && blu== true){
+    if (document.Race.Racer2Pos.value == 5 && choice == "blue"){
   alert("You won this event!")
 }
 else {
@@ -163,12 +164,12 @@ else {
 
 function R3Win()
 {
-  var t=setTimeout("alertMsgbla()", 0);
+  var t=setTimeout("alertMsgbla()", 1000);
 }
 function alertMsgbla()
 {
   alert("Black wins");
-    if (choice == "black" && bla== true){
+    if (document.Race.Racer3Pos.value == 5 && choice == "black"){
   alert("You won this event!")
 }
 else {
@@ -179,15 +180,15 @@ else {
 
 function R4Win()
 {
-  var t=setTimeout("alertMsgwhi()", 0);
+  var t=setTimeout("alertMsgwhi()", 1000);
 }
 function alertMsgwhi()
 {
   alert("White wins");
-    if (choice == "white" && whi== true){
+    if (document.Race.Racer4Pos.value == 5 && choice == "white"){
   alert("You won this event!")
 }
-else {
+else{
   alert("Game over!")
 }
 }
@@ -195,19 +196,18 @@ else {
 
 function R5Win()
 {
-  var t=setTimeout("alertMsggre()", 0);
+  var t=setTimeout("alertMsggre()", 1000);
 }
 function alertMsggre()
 {
   alert("Green wins");
-    if (choice == "green" && gre== true){
+    if (document.Race.Racer5Pos.value == 5 && choice == "green"){
   alert("You won this event!")
 }
 else {
   alert("Game over!")
 }
 }
-
 
 
 
@@ -254,6 +254,5 @@ function resetRacers(){
 
 </form>
 
-<div id="result"></div>
 
 </body>
