@@ -20,7 +20,7 @@ jQuery(function($){
 
 
 //this function lets the players choose a horse
-var choice =prompt("Choose horse")
+var choice = document.getElementsByName("colorpicker-riding").value;
 
 //This fuction will give each car a 1/2 chance to increase its position by 1. When reaching the finish line together, there will be a tie and the 'game' will restart.
 function go(){
