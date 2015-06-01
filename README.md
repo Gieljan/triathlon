@@ -10,9 +10,9 @@ As the games and the front menu were created seperatly one of the issues was som
 
 
 #####Possible future improvements
-+We wanted to have a player select an actual colour instead of the drop down menu and we wanted these to be randomly rendered. We also wanted the order in which the colours appear in the games to be random. Instead we chose to randomly place them in a particular position.
-+A feature that keeps score of whether players have won any events
-+Actually making the game somewhat fun.
+1.We wanted to have a player select an actual colour instead of the drop down menu and we wanted these to be randomly rendered. We also wanted the order in which the colours appear in the games to be random. Instead we chose to randomly place them in a particular position.
+2.A feature that keeps score of whether players have won any events
+3.Actually making the game somewhat fun.
 
 
 Daniela Diewock & Giel Veenstra 
