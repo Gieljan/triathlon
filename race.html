@@ -117,7 +117,12 @@ if(document.Race.Racer1Pos.value =="2"){ document.Racer1Image.src= "http://s5.po
  }
 }
 //popups stating the winner of the race and timeout to delay winning message
-console.log(choice);
+function show_image(src) {
+    var img = document.createElement("img");
+    img.src = src;
+    document.body.appendChild(img);
+}
+;
 
 function R1Win()
 {
@@ -130,7 +135,7 @@ function alertMsgyel()
   alert("You won this event!")
 }
 else {
-  alert("Game over!")
+  window.open('gameover.html', '_self')
 }
 
 }
@@ -146,7 +151,7 @@ function alertMsgblu()
   alert("You won this event!")
 }
 else {
-  alert("Game over!")
+  window.open('gameover.html', '_self')
 }
 }
 
@@ -162,7 +167,7 @@ function alertMsgbla()
   alert("You won this event!")
 }
 else {
-  alert("Game over!")
+  window.open('gameover.html', '_self')
 }
 }
 
@@ -178,7 +183,7 @@ function alertMsgwhi()
   alert("You won this event!")
 }
 else{
-  alert("Game over!")
+  window.open('gameover.html', '_self')
 }
 }
 
@@ -194,7 +199,7 @@ function alertMsggre()
   alert("You won this event!")
 }
 else {
-  alert("Game over!")
+  window.open('gameover.html', '_self')
 }
 }
 
@@ -245,3 +250,4 @@ function resetRacers(){
 
 
 </body>
+
