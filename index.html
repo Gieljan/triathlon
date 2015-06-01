@@ -1,4 +1,3 @@
-
 <!doctype html>
 
 <!--[if gt IE 9]><!--> <html> <!--<![endif]-->
@@ -161,18 +160,21 @@
 					<img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
 					<br></br>
 					<br></br>
-					<div class="sub-title lead3">Select your Team:</div>
+								<div class="sub-title lead3">Select your Runner:</div>
 						<link id="init">
-						<select name="colorpicker-maths">
-						<option value="ffffff">white</option>
-						<option value="#ffd900">yellow</option>
-						<option value="#24ff21">green</option>
-						<option value="#0580ff">blue</option>
-						<option value="000000">black</option>
+						<form>
+						<select id="url3" name="url3">
+						<option selected="selected" value="#">select colour</option>
+						<option value="running/runningblue.html">blue</option>
+						<option value="running/runningyellow.html">yellow</option>
+						<option value="running/runninggreen.html">green</option>
+						<option value="running/runningblack.html">black</option>
+						<option value="running/runningwhite.html">white</option>
 					</select>
 					<br></br>
-						<p><a class="btn btn-embossed btn-primary" href="#" role="button">Play</a> 
+						<p><a class="btn btn-embossed btn-primary" target="_self" input type="submit"  role="button" onclick="window.open(url3.value, '_self');"  />Play</</a> 
 					 	<a class="btn btn-embossed btn-info" href="#instructions" role="button">View Instructions</a></p>
+					 	</form>
 					<br></br>
 					<br></br>
                 </div>
@@ -198,10 +200,10 @@
 					<img class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
 					<br></br>
 					<br></br>
-						<div class="sub-title lead3">Select your Team:</div>
+					<div class="sub-title lead3">Select your Runner:</div>
 						<link id="init">
 						<form>
-						<select id="url" name="url">
+						<select id="url2" name="url2">
 						<option selected="selected" value="#">select colour</option>
 						<option value="running/runningblue.html">blue</option>
 						<option value="running/runningyellow.html">yellow</option>
@@ -210,9 +212,9 @@
 						<option value="running/runningwhite.html">white</option>
 					</select>
 					<br></br>
-						<p><a class="btn btn-embossed btn-primary" target="_self" input type="submit"  role="button" onclick="window.open(url.value, '_self');"  />Play</</a> 
+						<p><a class="btn btn-embossed btn-primary" target="_self" input type="submit"  role="button" onclick="window.open(url2.value, '_self');"  />Play</</a> 
 					 	<a class="btn btn-embossed btn-info" href="#instructions" role="button">View Instructions</a></p>
-					</form>
+					 	</form>
 					<br></br>
 					<br></br>
                 </div>
@@ -238,21 +240,20 @@
 					<img class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
 					<br></br>
 					<br></br>
-					<div class="sub-title lead3">Select your Team:</div>
+					<div class="sub-title lead3">Select your Rider:</div>
 						<link id="init">
 						<form>
 						<select id="url" name="url">
 						<option selected="selected" value="#">select colour</option>
 						<option value="race.html">white</option>
-						<option value="http://www.briscoes.co.nz/productimages/magnify/1/7736_14397_26184.jpg">yellow</option>
+						<option value="race.html">yellow</option>
 						<option value="green">green</option>
 						<option value="riding/horseblue.html">blue</option>
 						<option value="black">black</option>
 					</select>
 					<br></br>
 						<p><a class="btn btn-embossed btn-primary" target="_self" input type="submit"  role="button" onclick="window.open(url.value, '_self');"  />Play</</a> 
-					 	<a class="btn btn-embossed btn-info" href="#instructions" role="button">View Instructions</a></p>
-					</form>
+					 	<a class="btn btn-embossed btn-info" href="#instructions" role="button">View Instructions</a></p></form>
 					<br></br>
 					<br></br>
                 </div>
