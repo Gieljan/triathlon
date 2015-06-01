@@ -238,7 +238,7 @@
 					<div class="sub-title lead3">Select your Team:</div>
 						<link id="init">
 						<form>
-						<select name="url">
+						<select id="url" name="url">
 						<option selected="selected" value=""></option>
 						<option value="race.html">white</option>
 						<option value="http://www.briscoes.co.nz/productimages/magnify/1/7736_14397_26184.jpg">yellow</option>
@@ -246,7 +246,7 @@
 						<option value="blue">blue</option>
 						<option value="black">black</option>
 					</select>
-					<input type="submit" value="Play event" onclick="window.open(url.value);" /> </
+					<a href="javascript:if (document.getElementById('url').value) window.open(document.getElementById('url').value);" target="_blank">Submit</a>
 					<br></br>
 						<p><a class="btn btn-embossed btn-primary" input type="submit" value="Play"  role="button" onclick="window.open(url.value);" />Play</</a> 
 					 	<a class="btn btn-embossed btn-info" href="#instructions" role="button">View Instructions</a></p>
