@@ -15,8 +15,8 @@ As the games and the front menu were created seperatly one of the issues was som
 3. Actually making the game somewhat fun.
 
 
-*Daniela Diewock & Giel Veenstra *
+__Daniela Diewock & Giel Veenstra __
 
 ----
 #####Feedback on the course
-Giel: For me this was a very refreshing course that really showed me not only that having ADHD is not great for coding but mostly gave me a new insight in my field and interest. I liked the freeform nature of the course and I would definitely recommend it to others.
+__Giel__: For me this was a very refreshing course that really showed me not only that having ADHD is not great for coding but mostly gave me a new insight in my field and interest. I liked the freeform nature of the course and I would definitely recommend it to others.
