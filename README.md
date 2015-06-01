@@ -15,7 +15,7 @@ As the games and the front menu were created seperatly one of the issues was som
 3. Actually making the game somewhat fun.
 
 
-__Daniela Diewock & Giel Veenstra __
+__Daniela Diewock & Giel Veenstra__
 
 ----
 #####Feedback on the course
