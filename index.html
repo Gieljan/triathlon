@@ -198,18 +198,21 @@
 					<img class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
 					<br></br>
 					<br></br>
-					<div class="sub-title lead3">Select your Team:</div>
+						<div class="sub-title lead3">Select your Team:</div>
 						<link id="init">
-						<select name="colorpicker-running">
-						<option value="ffffff">white</option>
-						<option value="#ffd900">yellow</option>
-						<option value="#24ff21">green</option>
-						<option value="#0580ff">blue</option>
-						<option value="000000">black</option>
+						<form>
+						<select id="url" name="url">
+						<option selected="selected" value="#">select colour</option>
+						<option value="running/runningblue.html">blue</option>
+						<option value="running/runningyellow.html">yellow</option>
+						<option value="running/runninggreen.html">green</option>
+						<option value="running/runningblack.html">black</option>
+						<option value="running/runningwhite.html">white</option>
 					</select>
 					<br></br>
-						<p><a class="btn btn-embossed btn-primary" href="#" role="button">Play</a> 
+						<p><a class="btn btn-embossed btn-primary" target="_self" input type="submit"  role="button" onclick="window.open(url.value, '_self');"  />Play</</a> 
 					 	<a class="btn btn-embossed btn-info" href="#instructions" role="button">View Instructions</a></p>
+					</form>
 					<br></br>
 					<br></br>
                 </div>
