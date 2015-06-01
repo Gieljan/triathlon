@@ -1,0 +1,221 @@
+<html>
+<head>
+ <link rel="stylesheet" href="styleHorse.css">
+
+<title>
+Riding
+</title>
+
+
+
+<script>
+//this function lets the players choose a horse
+var choice = "blue"
+//This fuction will give each car a 1/2 chance to increase its position by 1. When reaching the finish line together, there will be a tie and the 'game' will restart.
+function go(){
+ document.Race.Racer1Pos.value = parseInt(document.Race.Racer1Pos.value) + Math.floor(Math.random()*2);
+ document.Race.Racer2Pos.value = parseInt(document.Race.Racer2Pos.value) + Math.floor(Math.random()*2);
+ document.Race.Racer3Pos.value = parseInt(document.Race.Racer3Pos.value) + Math.floor(Math.random()*2);
+ document.Race.Racer4Pos.value = parseInt(document.Race.Racer4Pos.value) + Math.floor(Math.random()*2);
+ document.Race.Racer5Pos.value = parseInt(document.Race.Racer5Pos.value) + Math.floor(Math.random()*2);
+if(document.Race.Racer1Pos.value =="2"){ document.Racer1Image.src= "maths/mu2.png"; }
+ else if(document.Race.Racer1Pos.value == "3"){ document.Racer1Image.src= "maths/mu3.png"; }
+ else if(document.Race.Racer1Pos.value == "4"){ document.Racer1Image.src = "maths/mu4.png"; }
+ else if(document.Race.Racer1Pos.value == "5"){ document.Racer1Image.src = "maths/mu5.png"; }
+ 
+  if(document.Race.Racer2Pos.value == "2"){ document.Racer2Image.src = "maths/mg2.png"; }
+ else if(document.Race.Racer2Pos.value == "3"){ document.Racer2Image.src= "maths/mg3.png"; }
+ else if(document.Race.Racer2Pos.value == "4"){ document.Racer2Image.src = "maths/mg4.png"; }
+ else if(document.Race.Racer2Pos.value == "5"){ document.Racer2Image.src = "maths/mg5.png"; }
+
+ if(document.Race.Racer3Pos.value == "2"){ document.Racer3Image.src = "maths/my2.png"; }
+ else if(document.Race.Racer3Pos.value == "3"){ document.Racer3Image.src = "maths/my2.png"; }
+ else if(document.Race.Racer3Pos.value == "4"){ document.Racer3Image.src = "maths/my2.png"; }
+ else if(document.Race.Racer3Pos.value == "5"){ document.Racer3Image.src = "maths/my2.png"; }
+
+ if(document.Race.Racer4Pos.value == "2"){ document.Racer4Image.src = "maths/mb2.png"; }
+ else if(document.Race.Racer4Pos.value == "3"){ document.Racer4Image.src = "maths/mb3.png"; }
+ else if(document.Race.Racer4Pos.value == "4"){ document.Racer4Image.src = "maths/mb4.png"; }
+ else if(document.Race.Racer4Pos.value == "5"){ document.Racer4Image.src = "maths/mb5.png"; }
+
+ if(document.Race.Racer5Pos.value == "2"){ document.Racer5Image.src = "maths/mw2.png"; }
+ else if(document.Race.Racer5Pos.value == "3"){ document.Racer5Image.src = "maths/mw3.png"; }
+ else if(document.Race.Racer5Pos.value == "4"){ document.Racer5Image.src = "maths/mw4.png"; }
+ else if(document.Race.Racer5Pos.value == "5"){ document.Racer5Image.src = "maths/mw5.png"; }
+ if(document.Race.Racer1Pos.value < 5 && document.Race.Racer2Pos.value < 5 && document.Race.Racer3Pos.value < 5 && document.Race.Racer4Pos.value < 5 && document.Race.Racer5Pos.value < 5){ setTimeout("go()",1000) }
+  //If the race is a tie (all options are seperately declared) the race will restart
+ else if(parseInt(document.Race.Racer1Pos.value) == "5" && parseInt(document.Race.Racer2Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer1Pos.value) == "5" && parseInt(document.Race.Racer3Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+  else if(parseInt(document.Race.Racer2Pos.value) == "5" && parseInt(document.Race.Racer3Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer1Pos.value) == "5" && parseInt(document.Race.Racer4Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer1Pos.value) == "5" && parseInt(document.Race.Racer5Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer2Pos.value) == "5" && parseInt(document.Race.Racer4Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer2Pos.value) == "5" && parseInt(document.Race.Racer5Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer3Pos.value) == "5" && parseInt(document.Race.Racer4Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer3Pos.value) == "5" && parseInt(document.Race.Racer5Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer4Pos.value) == "5" && parseInt(document.Race.Racer5Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ else if(parseInt(document.Race.Racer2Pos.value) == "5" && parseInt(document.Race.Racer3Pos.value) == "5"){
+  alert("It is a tie!");
+  resetRacers();
+ }
+ //This is where is declared who wins
+ else if(document.Race.Racer1Pos.value == 5){
+  R1Win();
+ }
+ else if(document.Race.Racer2Pos.value == 5){
+  R2Win();
+ }
+ else if(document.Race.Racer3Pos.value == 5){
+  R3Win();
+ }
+  else if(document.Race.Racer4Pos.value == 5){
+  R4Win();
+ }
+  else if(document.Race.Racer5Pos.value == 5){
+  R5Win();
+ }
+}
+//popups stating the winner of the race and timeout to delay winning message
+
+function R1Win()
+{
+  var t=setTimeout("alertMsgyel()", 1000);
+}
+function alertMsgyel()
+{
+  alert("Blue wins");
+  if (document.Race.Racer1Pos.value == 5 && choice == "blue"){
+  alert("You won this event!")
+}
+else {
+  window.open('gameover.html', '_self')
+}
+}
+function R2Win()
+{
+  var t=setTimeout("alertMsgblu()", 1000);
+}
+function alertMsgblu()
+{
+  alert("Green wins");
+    if (document.Race.Racer2Pos.value == 5 && choice == "green"){
+  alert("You won this event!")
+}
+else {
+  window.open('gameover.html', '_self')
+}
+}
+function R3Win()
+{
+  var t=setTimeout("alertMsgbla()", 1000);
+}
+function alertMsgbla()
+{
+  alert("Yellow wins");
+    if (document.Race.Racer3Pos.value == 5 && choice == "yellow"){
+  alert("You won this event!")
+}
+else {
+  window.open('gameover.html', '_self')
+}
+}
+function R4Win()
+{
+  var t=setTimeout("alertMsgwhi()", 1000);
+}
+function alertMsgwhi()
+{
+  alert("Black wins");
+    if (document.Race.Racer4Pos.value == 5 && choice == "black"){
+  alert("You won this event!")
+}
+else{
+  window.open('gameover.html', '_self')
+}
+}
+function R5Win()
+{
+  var t=setTimeout("alertMsggre()", 1000);
+}
+function alertMsggre()
+{
+  alert("White wins");
+    if (document.Race.Racer5Pos.value == 5 && choice == "white"){
+  alert("You won this event!")
+}
+else {
+  window.open('gameover.html', '_self')
+}
+}
+// this resets the race if there is a tie
+function resetRacers(){
+ document.Race.Racer1Pos.value="1";
+ document.Race.Racer2Pos.value="1";
+ document.Race.Racer3Pos.value="1";
+ document.Race.Racer4Pos.value="1";
+ document.Race.Racer5Pos.value="1";
+ document.Racer1Image.src="maths/mu1.png";
+ document.Racer2Image.src="maths/mg2.png";
+ document.Racer3Image.src="maths/my1.png";
+ document.Racer4Image.src="maths/mb1.png";
+ document.Racer5Image.src="maths/mw1.png";
+ }
+</script>
+
+<body>
+
+<form name = "Race">
+
+
+<img src="maths/mu1.png" name="Racer1Image"><br>
+<img src="maths/mg1.png" name="Racer2Image"><br>
+<img src="maths/my1.png" name="Racer3Image"><br>
+<img src="maths/mb1.png" name="Racer4Image"><br>
+<img src="maths/mw1.png"><br>
+
+<input type="hidden" Car 1 position: value="1" name="Racer1Pos">
+<input type="hidden" Car 2 position: value="1" name="Racer2Pos">
+<input type="hidden" Car 3 position: value="1" name="Racer3Pos">
+<input type="hidden" Car 4 position: value="1" name="Racer4Pos">
+<input type="hidden" Car 5 position: value="1" name="Racer5Pos">
+
+
+
+
+
+<input type=button value= "Start race!" name = "startbutton" onclick='go()'>
+
+</form>
+
+
+</body>
