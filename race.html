@@ -14,7 +14,8 @@ Riding
 
 
 //this function lets the players choose a horse
-var choice = white
+var choice = whit
+console.log(choice)
 
 //This fuction will give each car a 1/2 chance to increase its position by 1. When reaching the finish line together, there will be a tie and the 'game' will restart.
 function go(){
@@ -98,27 +99,22 @@ if(document.Race.Racer1Pos.value =="2"){ document.Racer1Image.src= "http://s5.po
  //This is where is declared who wins
  else if(document.Race.Racer1Pos.value == 5){
   R1Win();
-  var colour = "yel";
  }
 
  else if(document.Race.Racer2Pos.value == 5){
   R2Win();
-  var colour = "blu";
  }
 
  else if(document.Race.Racer3Pos.value == 5){
   R3Win();
-  var colour = "bla";
  }
 
   else if(document.Race.Racer4Pos.value == 5){
   R4Win();
-  var colour = "whi";
  }
 
   else if(document.Race.Racer5Pos.value == 5){
   R5Win();
-  var colour = "gre";
  }
 }
 //popups stating the winner of the race and timeout to delay winning message
